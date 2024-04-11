@@ -58,7 +58,7 @@ body {
     height: 300px;
     width: 100%;
     overflow-y: scroll;
-    scrollbar-width: auto;
+    scrollbar-width: none;
 }
 
 .list {
@@ -98,6 +98,12 @@ body {
 button {
     border-radius: 5px;
     background-color: white;
+}
+button:hover{
+    background-color:gray;
+}
+.hovered{
+    background-color:lightgray;
 }
 
 .butUp, .butDown, .butLeft, .butAllLeft, .butAllRight {
